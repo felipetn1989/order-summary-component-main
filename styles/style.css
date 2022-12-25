@@ -48,6 +48,7 @@ body {
     height: auto;
     border-radius: 20px;
     margin-bottom: 1.25rem;
+    transition: all .5s;
 }
 
 .card > img {
@@ -86,7 +87,14 @@ body {
 }
 
 .plan_price {
+    display: flex;
     font-size: .875rem;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .plan_duration {
@@ -154,5 +162,13 @@ body {
     body {
         background: url(../images/pattern-background-desktop.svg) left bottom no-repeat;
         background-size: cover;
+    }
+
+    .card {
+        width: 400px;
+        height: 720px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
