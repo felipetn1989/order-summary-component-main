@@ -165,6 +165,10 @@ body {
     }
 
     .card {
-        width: 400px;
+        width: 425px;
+    }
+
+    .card > p {
+        padding: .875em 3em;
     }
 }
