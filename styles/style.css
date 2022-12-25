@@ -163,12 +163,4 @@ body {
         background: url(../images/pattern-background-desktop.svg) left bottom no-repeat;
         background-size: cover;
     }
-
-    .card {
-        width: 400px;
-        height: 720px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
 }
