@@ -80,6 +80,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .plan img {
@@ -170,5 +171,13 @@ body {
 
     .card > p {
         padding: .875em 3em;
+    }
+
+    .plan {
+        margin: 1rem 3rem;
+    }
+
+    .links {
+        margin: 1rem 3rem;
     }
 }
